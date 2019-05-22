@@ -1,0 +1,25 @@
+{
+  "name": "node_rest",
+  "version": "1.0.0",
+  "description": "Node Rest API for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immayurpanchal/node_rest.git"
+  },
+  "author": "Mayur Panchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immayurpanchal/node_rest/issues"
+  },
+  "homepage": "https://github.com/immayurpanchal/node_rest#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
