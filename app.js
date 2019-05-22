@@ -1,9 +1,9 @@
 const express = require('express');
 
+const productRoutes = require('./routes/product');
+
 const app = express();
 
-app.get('/', (req, res, next) => {
-    res.send('<h1>Hello World</h1>');
-});
+app.use(productRoutes);
 
 app.listen(8080);
